@@ -3,17 +3,18 @@
 The Phone List Application is a console-based program for managing a list of phone contacts. The application uses a linked list as the underlying data structure, providing dynamic and efficient management of contact information. The application supports operations such as adding, searching, deleting, and displaying contacts.
 
 # Features
-Add Contact: Add a new contact to the phone list.
-Search Contact: Search for a contact by name or phone number.
-Delete Contact: Remove a contact from the list by name or phone number.
-Display Contacts: Display all the contacts in the phone list.
+1.Add Contact: Add a new contact to the phone list.
+2.Search Contact: Search for a contact by name or phone number.
+3.Delete Contact: Remove a contact from the list by name or phone number.
+4.Display Contacts: Display all the contacts in the phone list.
 # Data Structure
 The application uses a singly linked list to store the contacts. Each node in the linked list represents a contact and contains the following fields:
 
 Name: The name of the contact (string).
 Phone Number: The phone number of the contact (string or integer).
 Next: A pointer to the next contact in the list.
-# How It Works
+# How It Works : 
+
 # 1-Add Contact
 Creates a new node with the given name and phone number.
 Inserts the node at the end of the linked list.
